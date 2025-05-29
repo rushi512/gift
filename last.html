@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Special Message</title>
+<style>
+  /* Background gradient animation */
+  @keyframes gradientShift {
+    0% {
+      background-position: 0% 50%;
+    }
+    50% {
+      background-position: 100% 50%;
+    }
+    100% {
+      background-position: 0% 50%;
+    }
+  }
+
+  body {
+    margin: 0;
+    height: 150vh;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: linear-gradient(-45deg, #8B004B, #C71585, #D87093, #A52A6A); /* dark pink shades */
+    background-size: 400% 400%;
+    animation: gradientShift 20s ease infinite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    color: #fff;
+  }
+
+  .message-container {
+    max-width: 700px;
+    background: rgba(255, 182, 193, 0.25); /* light pink with transparency */
+    border-radius: 20px;
+    padding: 30px 35px;
+    box-shadow: 0 8px 32px 0 rgba(219, 112, 147, 0.37); /* pinkish shadow */
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border: 1px solid rgba(255, 182, 193, 0.4);
+    line-height: 1.7;
+    font-size: 17px;
+    opacity: 0;
+    transform: translateY(40px);
+    animation: slideFadeIn 1s forwards;
+    user-select: text;
+    color: #330029; /* dark text for better contrast on light pink */
+  }
+
+  .message-container p {
+    margin-bottom: 1.2em;
+  }
+
+  .highlight {
+    color: #FF1493; /* deep pink */
+    font-weight: 700;
+  }
+
+  .quote {
+    font-style: italic;
+    margin: 25px 0;
+    background: rgba(255, 192, 203, 0.4); /* even lighter pink */
+    border-left: 5px solid #FF1493;
+    padding-left: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #FF1493aa;
+    animation: pulseGlow 3s infinite alternate ease-in-out;
+    color: #660033;
+  }
+
+  .signature {
+    font-weight: 700;
+    font-size: 19px;
+    text-align: center;
+    margin-top: 45px;
+    white-space: nowrap;
+    overflow: hidden;
+    border-right: 3px solid #FF1493;
+    width: 0;
+    animation: typing 4s steps(30, end) forwards, blinkCaret 0.75s step-end infinite;
+    color: #C71585;
+  }
+
+  /* Animations */
+
+  @keyframes slideFadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+
+  @keyframes pulseGlow {
+    0% {
+      box-shadow: 0 0 8px #FF149388, 0 0 18px #FF149355;
+    }
+    100% {
+      box-shadow: 0 0 25px #FF1493cc, 0 0 40px #FF1493aa;
+    }
+  }
+
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 16ch; }
+  }
+
+  @keyframes blinkCaret {
+    50% { border-color: transparent; }
+  }
+
+  /* Responsive */
+
+  @media (max-width: 600px) {
+    .message-container {
+      font-size: 15px;
+      padding: 25px 20px;
+    }
+    .signature {
+      width: 100%;
+      white-space: normal;
+      animation: none;
+      border: none;
+    }
+  }
+
+</style>
+</head>
+<body>
+
+  <div class="message-container" tabindex="0" aria-label="Special message">
+    <p><strong> Thank you for comeing in my life as a sister as a friend </strong></p>
+    
+
+    <div class="quote">
+      <p>Teri baton mein pyaar hai,<br>
+      Teri muskaan mein sansaar hai.<br>
+      Teri taareef ne dil chhoo liya,<br>
+      Bhai hone ka ehsaas gehra kar diya.</p>
+    </div>
+
+    <p>Thank You for Being So Special 💖</p>
+<p>
+  <pre>""....Looking back on the </pre>
+  <pre>first day we started</pre>
+  <pre>talking , i Would 've </pre>
+  <pre>never guessed that</pre>
+  <pre>we would be able </pre>
+  <pre>to build this Special</pre>
+  <pre>and unbreakable bond</pre>
+  <pre>we hare....."</pre>
+  </p>
+  <p>
+    आहेस तू खूप रागीट😡 तुला राग लवकर येतो , पण तू काळजी🥰 पण करतीस खूप , काही गोष्टी आशय आहेत कि त्य मुले तुला राग लवकर येतो जस कि मी तुला तिमे नाही दिला कि कींवा दाजी ने  तिमे नाही दिला कि तू तुला राग येतो लवकर आणि तो मग बाहेर निगतो , मग  जवळ मी तुझा दाद्या😎 आसो किंवा दाजी आसो . हा पण मला म्हणता येईल ना माझी एक बहीण🐵 आहे. आणि  तिला खूप खूप लवकर राग येतो😡 . 
+  </p>
+
+  
+<p> Thank you for mazy life made aalis mazi bhin mhanun ka hoena pn aalis aani thanks you tu dilely sagly gift sathi aase gift je ki i kadhic visru nahi shakt , ha evd aahe mi bolayla bollel ki mi goshti visroto lvkr pn te khar nahi ye mla pn goshti visrayla time lagto kahi goshti aasta ki ty kadic nahi visru shakt . tu mazzy life made bahin mhanun aalis aani bahin manun c rahnar rahnar </p>
+<pre>thank you ty pratek gift sathi aani mazy life made yeny sathi </pre>
+    <div class="signature">— your DADAY</div>
+  </div>
+
+</body>
+</html>
