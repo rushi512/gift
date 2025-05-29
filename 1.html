@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>doc</title>
+    <link rel="stylesheet" href="1.css">
+</head>
+<body>
+  <div class="video-container">
+    <video controls>
+      <source src="first lassi.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls>
+      <source src="khaou galli.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+
+    <video controls>
+      <source src="sond lassi.mp4" type="video/mp4">
+      Your browser does not support the video tag.
+    </video>
+  </div>
+  <button class="shine-button" onclick="checkPassword()">Click</button>
+</body>
+<script>
+    function checkPassword() {
+      const correctPassword = "2312004"; // <-- Change your password here
+      const userInput = prompt("Enter the password:");
+
+      if (userInput === correctPassword) {
+        // If password is correct, redirect to next page
+        window.location.href = "last.html";
+      } else {
+        alert("Wrong password. Access denied! you wont to access then password in 1234");
+      }
+    }
+  </script>
+
+</html>
